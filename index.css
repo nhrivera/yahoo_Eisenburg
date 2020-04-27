@@ -1,0 +1,239 @@
+body {
+    background-color: #FAFAFC;
+    display: grid;
+}
+
+#button_2:active {
+    outline: 0;
+    box-shadow: none!important;
+}
+button:focus {
+    outline: 0;
+    box-shadow: none!important;
+}
+
+/* Top navigation bar */
+
+#nav-top {
+    float: left;
+}
+
+.nav-top{
+    background-color: #702786;
+    position: fixed;
+    top:0;
+    left: 0;
+    right: 0;
+}
+
+.nav-top div {
+    display: flex;
+    margin-top: 5px;
+}
+
+.nav-top div img {
+    display: block;
+    margin-left: 240px;
+}
+
+textarea {
+    resize: none;
+    width: 230px;
+    height: 30px;
+}
+
+.logo{
+    width: 100px;
+    padding-bottom: 5px;
+}
+
+#button {
+   padding-top: 0;
+   margin-bottom: 5px;
+}
+
+.icon {
+    height: 30px;
+    width: auto;
+    padding-left: 280px;
+}
+.empty {
+    height: 44px;
+}
+
+/* Eisenberg Image area */
+
+.image-area {
+    background-image: url(images/Untitled.jpg);
+    top: 44px;
+    background-size: 100%;
+    height: 332px;
+}
+
+.text {
+    color: #484848;
+    padding-top: 90px;
+    padding-left: 835px;
+    font-size: 12px;
+    font-weight: 400;
+    padding-right: 280px;
+}
+
+.text h1 {
+    font-size: 23px;
+    color: #484848;
+    font-weight: 400;
+}
+
+.full-story {
+    font-weight: 600;
+    font-style: italic;
+}
+
+.full-story a {
+    text-decoration: none;
+    color: #484848;
+}
+
+.full-story a:hover {
+    text-decoration: none;
+    color: #6F7271;
+}
+
+.icons {
+    display: grid;
+    float: left;
+    grid-template-rows: auto;
+    justify-items: center;
+    background-color: white;
+    width: 30px;
+    height: 332px;
+    margin-left: 205px;
+    padding-right: 0;
+}
+
+/* Bottom navigation bar */
+
+.nav-bottom {
+    background-color: #702786;
+    display: inline-grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 50px;
+    top: 375px;
+    padding-left: 450px;
+    width: 100%;
+    height: 40px;
+}
+
+.nav-bottom ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+
+.nav-bottom ul li a {
+    color: #FAFAFC;
+    text-decoration: none ;
+    display: block;
+    padding: 8px;
+    font-weight: 300;
+}
+
+.nav-bottom ul li a:hover {
+    background-color: #8A3DA3;
+}
+
+.active {
+    background-color: #8A3DA3;
+}
+
+.baltimore {
+    color: #FAFAFC;
+    text-decoration: none ;
+    padding-top: 3px;
+    font-size: 10px;
+    font-weight: 300;
+    margin-left: 90px;
+    float: left;
+}
+
+.degrees {
+    font-size: 20px;
+    padding-left: 4px;
+    vertical-align: middle ;
+    margin-bottom: 5px;
+}
+
+
+/* Middle text area */
+
+.middle {
+    display: grid;
+    margin-top: 40px;
+    grid-template-columns: auto 6fr;
+    column-gap: 50px;
+    align-items: center;
+    padding-left: 200px;
+    margin-bottom: 30px;
+}
+
+.middle-img {
+    display: inline-block;
+
+}
+
+.middle-text {
+    color: #484848;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.article {
+    margin-bottom: 20px;
+}
+
+
+.bottom-img {
+    background-image: url(images/carousel.jpg);
+    background-size: 100%;
+    height: 426px;
+}
+
+.bottom-text .header {
+    font-size: 38px;
+}
+
+.bottom-text .between {
+    padding-right: 275px;
+}
+
+.bottom-text {
+    color: #712985;
+    margin-left: 800px;
+    margin-top: 90px;
+    font-size: 14px;
+}
+
+.article a {
+    color: #712985;
+    text-decoration: none ;
+}
+
+.article a:hover {
+    color: #9B50B1;
+    text-decoration: none;
+}
+
+.bottom-img div a {
+    background-color: #9B50B1;
+    color: #FAFAFC;
+    text-decoration: none ;
+    display: block;
+    padding: 8px;
+    font-weight: 300;
+    text-align: center;
+    width: 125px;
+}
+.bottom-img div a:hover {
+    background-color: #8A3DA3;
+}
